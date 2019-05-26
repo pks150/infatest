@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "7FmnVpweQSgjDcywB7Pxoo",
+    "name" : "FirstProcess",
+    "type" : "PROCESS",
+    "path" : "/Explore/Default",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "fSCT53nQciSrZMS-gt-695-2019-05-26T10:07:18.084Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "ok",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      },
+      "objectRefs" : [ ]
+    },
+    "dataFileExtension" : "xml"
+  }
+}
