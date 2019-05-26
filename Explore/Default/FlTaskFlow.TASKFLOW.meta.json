@@ -1,0 +1,47 @@
+{
+  "objectInfo" : {
+    "id" : "9tAgbBMja6PeVIuIwqrp24",
+    "name" : "FlTaskFlow",
+    "type" : "TASKFLOW",
+    "path" : "/Explore/Default",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "RuImXycotFgpKi9-gt-747-2019-05-26T10:04:35.709Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "wfsfsfsfsf",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      },
+      "objectRefs" : [ {
+        "id" : "7c6snoy5DBceQqHayuD2ah",
+        "name" : "FLTask",
+        "type" : "MI_FILE_LISTENER",
+        "path" : "/Explore/Default",
+        "metadata" : {
+          "modelVersion" : {
+            "major" : 1,
+            "minor" : 0
+          },
+          "repoInfo" : {
+            "repoHandle" : "10000"
+          },
+          "contextAttributes" : [ ],
+          "additionalInfo" : {
+            "description" : "",
+            "contentType" : "Binary",
+            "documentState" : "VALID"
+          },
+          "objectRefs" : [ ]
+        },
+        "dataFileExtension" : null
+      } ]
+    },
+    "dataFileExtension" : "xml"
+  }
+}
