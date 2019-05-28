@@ -1,0 +1,47 @@
+{
+  "objectInfo" : {
+    "id" : "jjI9irYSRorieM6spfbJE8",
+    "name" : "TFFLTest",
+    "type" : "TASKFLOW",
+    "path" : "/Explore/Default",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "wUIsNAYvtpeFRqX-gt-180-2019-05-28T09:14:48.357Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      },
+      "objectRefs" : [ {
+        "id" : "9Sh8972R1oQbgBvWElPOo3",
+        "name" : "FileListenerTask",
+        "type" : "MI_FILE_LISTENER",
+        "path" : "/Explore/Default",
+        "metadata" : {
+          "modelVersion" : {
+            "major" : 1,
+            "minor" : 0
+          },
+          "repoInfo" : {
+            "repoHandle" : "10002"
+          },
+          "contextAttributes" : null,
+          "additionalInfo" : {
+            "description" : "",
+            "contentType" : "Binary",
+            "documentState" : "VALID"
+          },
+          "objectRefs" : [ ]
+        },
+        "dataFileExtension" : null
+      } ]
+    },
+    "dataFileExtension" : "xml"
+  }
+}
