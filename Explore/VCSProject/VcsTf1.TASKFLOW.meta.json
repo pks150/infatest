@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "2Q4zjZLluIQbuQ6FIKVBku",
+    "name" : "VcsTf1",
+    "type" : "TASKFLOW",
+    "path" : "/Explore/VCSProject",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "mrOvMBu8zbgdwUi-gt-1055-2019-05-28T10:08:52.06Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      },
+      "objectRefs" : [ ]
+    },
+    "dataFileExtension" : "xml"
+  }
+}
