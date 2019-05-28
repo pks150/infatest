@@ -4,7 +4,7 @@
       <types1:EntryId>eAeFz7M1reAFLK2-gt-58-2019-05-28T11:02:29.065Z::pd.xml</types1:EntryId>
       <types1:Name>SampleProcess</types1:Name>
       <types1:MimeType>application/xml+process</types1:MimeType>
-      <types1:Description/>
+      <types1:Description>sada</types1:Description>
       <types1:AppliesTo/>
       <types1:Tags/>
       <types1:VersionLabel>1.0</types1:VersionLabel>
@@ -12,7 +12,8 @@
       <types1:ProcessGroup/>
       <types1:CreatedBy>luffy</types1:CreatedBy>
       <types1:CreationDate>2019-05-28T11:02:29Z</types1:CreationDate>
-      <types1:ModifiedBy/>
+      <types1:ModifiedBy>luffy</types1:ModifiedBy>
+      <types1:ModificationDate>2019-05-28T12:05:13Z</types1:ModificationDate>
       <types1:PublicationStatus>unpublished</types1:PublicationStatus>
       <types1:AutosaveExists>false</types1:AutosaveExists>
       <types1:Entry>
@@ -21,7 +22,7 @@
                   displayName="SampleProcess"
                   name="SampleProcess">
             <appliesTo/>
-            <description/>
+            <description>sada</description>
             <tags/>
             <generator>Informatica Process Designer 11</generator>
             <notes/>
@@ -39,5 +40,5 @@
       <types1:GUID>kICBhYT0OybbX43JvSmjea</types1:GUID>
       <types1:DisplayName>SampleProcess</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2019-05-28T11:04:01.168Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2019-05-28T12:05:35.257Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
