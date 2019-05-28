@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "8LfOLE97QA1c3cVUN2WiUF",
+    "name" : "SampleTf",
+    "type" : "TASKFLOW",
+    "path" : "/Explore/Default",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "RRvsGRvDINciZBp-gt-1377-2019-05-28T11:00:15.705Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "asdas",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      },
+      "objectRefs" : [ ]
+    },
+    "dataFileExtension" : "xml"
+  }
+}
