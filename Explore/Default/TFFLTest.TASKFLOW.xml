@@ -4,7 +4,7 @@
       <types1:EntryId>wUIsNAYvtpeFRqX-gt-180-2019-05-28T09:14:48.357Z::tf.xml</types1:EntryId>
       <types1:Name>TFFLTest</types1:Name>
       <types1:MimeType>application/xml+taskflow</types1:MimeType>
-      <types1:Description>sfsafasdfsfdsdfasf</types1:Description>
+      <types1:Description>dad</types1:Description>
       <types1:AppliesTo/>
       <types1:Tags/>
       <types1:VersionLabel>1.0</types1:VersionLabel>
@@ -12,8 +12,8 @@
       <types1:ProcessGroup/>
       <types1:CreatedBy>luffy</types1:CreatedBy>
       <types1:CreationDate>2019-05-28T09:14:48Z</types1:CreationDate>
-      <types1:ModifiedBy>luffy</types1:ModifiedBy>
-      <types1:ModificationDate>2019-05-28T09:52:14Z</types1:ModificationDate>
+      <types1:ModifiedBy>thunder</types1:ModifiedBy>
+      <types1:ModificationDate>2019-05-28T09:57:54Z</types1:ModificationDate>
       <types1:PublicationStatus>unpublished</types1:PublicationStatus>
       <types1:AutosaveExists>false</types1:AutosaveExists>
       <types1:Entry>
@@ -22,7 +22,7 @@
                    displayName="TFFLTest"
                    name="TFFLTest">
             <appliesTo/>
-            <description>sfsafasdfsfdsdfasf</description>
+            <description>dad</description>
             <tags/>
             <generator>Informatica Process Designer 11</generator>
             <input>
@@ -138,5 +138,5 @@
       <types1:GUID>jjI9irYSRorieM6spfbJE8</types1:GUID>
       <types1:DisplayName>TFFLTest</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2019-05-28T09:52:29.979Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2019-05-28T09:58:20.611Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
