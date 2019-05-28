@@ -1,23 +1,19 @@
 <aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
                    xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
    <types1:Item>
-      <types1:EntryId>RuImXycotFgpKi9-gt-747-2019-05-26T10:04:35.709Z::tf.xml</types1:EntryId>
+      <types1:EntryId>Dyvs7xvk0qZF3a-gt-1325-2019-05-28T10:32:31.47Z::tf.xml</types1:EntryId>
       <types1:Name>FlTaskFlow</types1:Name>
       <types1:MimeType>application/xml+taskflow</types1:MimeType>
-      <types1:Description>wfsfsfsfsf</types1:Description>
+      <types1:Description/>
       <types1:AppliesTo/>
       <types1:Tags/>
       <types1:VersionLabel>1.0</types1:VersionLabel>
       <types1:State>CURRENT</types1:State>
       <types1:ProcessGroup/>
-      <types1:CreatedBy>luffy</types1:CreatedBy>
-      <types1:CreationDate>2019-05-26T10:04:36Z</types1:CreationDate>
-      <types1:ModifiedBy>luffy</types1:ModifiedBy>
-      <types1:ModificationDate>2019-05-26T10:05:32Z</types1:ModificationDate>
-      <types1:PublicationStatus>out-of-date</types1:PublicationStatus>
-      <types1:PublishedBy>luffy</types1:PublishedBy>
-      <types1:PublicationDate>2019-05-26T10:04:46Z</types1:PublicationDate>
-      <types1:PublishedContributionId>project:/tf.FlTaskFlow/FlTaskFlow.tf.xml</types1:PublishedContributionId>
+      <types1:CreatedBy>pks150</types1:CreatedBy>
+      <types1:CreationDate>2019-05-28T10:32:31Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
       <types1:AutosaveExists>false</types1:AutosaveExists>
       <types1:Entry>
          <taskflow xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
@@ -25,22 +21,12 @@
                    displayName="FlTaskFlow"
                    name="FlTaskFlow">
             <appliesTo/>
-            <description>wfsfsfsfsf</description>
+            <description/>
             <tags/>
             <generator>Informatica Process Designer 11</generator>
-            <input>
-               <parameter description="" name="FLTask" type="reference">
-                  <options>
-                     <option name="required">false</option>
-                     <option name="referenceTo">$po:B2B-FileListener</option>
-                     <option name="isCopy">true</option>
-                     <option name="guid">7c6snoy5DBceQqHayuD2ah</option>
-                  </options>
-               </parameter>
-            </input>
             <notes/>
             <deployment suspendOnFault="false" tracingLevel="verbose">
-               <event eventSource="fileListenerTask:FLTask"/>
+               <rest/>
             </deployment>
             <flow id="a">
                <start id="b">
@@ -48,84 +34,10 @@
                </start>
                <end id="c"/>
             </flow>
-            <dependencies>
-               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
-                              displayName="B2B-FileListener"
-                              isByCopy="true"
-                              name="B2B-FileListener">
-                  <description>This process object represents a taskflow specific file task field details.</description>
-                  <tags/>
-                  <detail>
-                     <field label="Arrived Files" name="arrivedFiles" type="objectlist">
-                        <options>
-                           <option name="referenceTo">$po:B2B-FileListener-arrivedFiles</option>
-                           <option name="relationshipName">Child</option>
-                           <option hide="true" name="multiSelect">true</option>
-                           <option name="required">false</option>
-                        </options>
-                     </field>
-                     <field label="Update Files" name="updatedFiles" type="objectlist">
-                        <options>
-                           <option name="referenceTo">$po:B2B-FileListener-updatedFiles</option>
-                           <option name="relationshipName">Child</option>
-                           <option hide="true" name="multiSelect">true</option>
-                           <option name="required">false</option>
-                        </options>
-                     </field>
-                     <field label="Deleted Files" name="deletedFiles" type="objectlist">
-                        <options>
-                           <option name="referenceTo">$po:B2B-FileListener-deletedFiles</option>
-                           <option name="relationshipName">Child</option>
-                           <option hide="true" name="multiSelect">true</option>
-                           <option name="required">false</option>
-                        </options>
-                     </field>
-                  </detail>
-               </processObject>
-               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
-                              displayName="B2B-FileListener-arrivedFiles"
-                              isByCopy="true"
-                              name="B2B-FileListener-arrivedFiles">
-                  <description>This process object represents a arrivedFiles structure of the file task field.This is in case of taskflow.</description>
-                  <tags/>
-                  <detail>
-                     <field label="Path" name="path" type="string"/>
-                     <field label="Name" name="name" type="string"/>
-                     <field label="Size" name="size" type="string"/>
-                     <field label="Last Modified" name="lastModified" type="string"/>
-                  </detail>
-               </processObject>
-               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
-                              displayName="B2B-FileListener-updatedFiles"
-                              isByCopy="true"
-                              name="B2B-FileListener-updatedFiles">
-                  <description>This process object represents a updatedFiles structure of the file task field.This is in case of taskflow.</description>
-                  <tags/>
-                  <detail>
-                     <field label="Path" name="path" type="string"/>
-                     <field label="Name" name="name" type="string"/>
-                     <field label="Size" name="size" type="string"/>
-                     <field label="Last Modified" name="lastModified" type="string"/>
-                  </detail>
-               </processObject>
-               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
-                              displayName="B2B-FileListener-deletedFiles"
-                              isByCopy="true"
-                              name="B2B-FileListener-deletedFiles">
-                  <description>This process object represents file listener task deletedFiles structure.This is in case of taskflow.</description>
-                  <tags/>
-                  <detail>
-                     <field label="Path" name="path" type="string"/>
-                     <field label="Name" name="name" type="string"/>
-                     <field label="Size" name="size" type="string"/>
-                     <field label="Last Modified" name="lastModified" type="string"/>
-                  </detail>
-               </processObject>
-            </dependencies>
          </taskflow>
       </types1:Entry>
-      <types1:GUID>9tAgbBMja6PeVIuIwqrp24</types1:GUID>
+      <types1:GUID>gsdtEzXRhE3lC0ZDn0tue2</types1:GUID>
       <types1:DisplayName>FlTaskFlow</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2019-05-26T10:05:58.45Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2019-05-28T10:33:16.126Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
